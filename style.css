@@ -1,0 +1,74 @@
+.photo-gallery {
+  margin: 2% 10%;
+
+}
+.navbar-brand{
+  font-family: 'Yellowtail', cursive;
+  font: 260px;
+}
+.nav-item{
+  color: white;
+  font-family: 'Days One', sans-serif;
+}
+body {
+  background-image: url('images/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+.photo-gallery h1 {
+  font-weight:bold;
+  padding: 5%;
+  color:white;
+  font-family: 'Days One', sans-serif;
+
+}
+
+@media (max-width:767px) {
+  .photo-gallery h1 {
+    font-size:24px;
+  }
+}
+.photo-gallery .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto 40px;
+}
+
+.photo-gallery .photos {
+  padding:5px;
+}
+
+.photo-gallery .item {
+  padding-bottom:10px;
+}
+.photo{
+  float: left;
+  position: relative;
+  padding: 5%;
+}
+.social-icon{
+  color: white;
+  margin: 20px 10px;
+}
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.bio{
+  color: white;
+  padding: 5%;
+
+}
+.bio{
+  font-family: 'Days One', sans-serif;
+}
+.navbar{
+  padding:10px 100px;
+  margin:2%;
+}
